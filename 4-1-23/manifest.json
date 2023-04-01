@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "April Fools 2023",
+	"version": "1.0.1",
+	"description": "Epic Prank",
+	"author": "JoshTheTechnician",
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content-script.js"]
+		}
+	]
+}
